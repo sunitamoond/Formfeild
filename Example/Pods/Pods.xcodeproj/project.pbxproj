@@ -380,7 +380,6 @@
 				914E31602320CE0E00CF6862 /* Model */,
 				914E315D2320CD7600CF6862 /* Constants */,
 				914E31582320CC4A00CF6862 /* Extenstions */,
-				602827A539B5605EE7957AE60EBC97A7 /* Formfeild.swift */,
 				F057C9DA8453E3C1F6CB8F3811AD79D2 /* Pod */,
 				460D5613C8662918475705EA424764AE /* Support Files */,
 			);
@@ -430,6 +429,7 @@
 		914E31632320D50900CF6862 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				602827A539B5605EE7957AE60EBC97A7 /* Formfeild.swift */,
 				914E31662320D5E600CF6862 /* SelectionCell.swift */,
 			);
 			path = Cell;
