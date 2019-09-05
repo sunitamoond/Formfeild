@@ -155,7 +155,7 @@
 		593CC31242423FCCC41109B1E67497CA /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
 		5BD18EE47DE41B1187F2BAAE80BDF745 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
 		5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		602827A539B5605EE7957AE60EBC97A7 /* Formfeild.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formfeild.swift; path = Formfeild/Classes/Formfeild.swift; sourceTree = "<group>"; };
+		602827A539B5605EE7957AE60EBC97A7 /* Formfeild.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Formfeild.swift; sourceTree = "<group>"; };
 		616E2050C648A46ACFF239C74BE8DD2B /* Pods-Formfeild_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Formfeild_Example-dummy.m"; sourceTree = "<group>"; };
 		650CA323CB29F66ADC48D000C0AB83A6 /* Pods_Formfeild_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Formfeild_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65383EF1583869E67603F6290C5DBBFD /* Pods-Formfeild_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Formfeild_Example.modulemap"; sourceTree = "<group>"; };
@@ -381,8 +381,6 @@
 				914E315D2320CD7600CF6862 /* Constants */,
 				914E31582320CC4A00CF6862 /* Extenstions */,
 				602827A539B5605EE7957AE60EBC97A7 /* Formfeild.swift */,
-				914E31682320D66C00CF6862 /* FieldType.swift */,
-				914E31612320CE2B00CF6862 /* Options.swift */,
 				F057C9DA8453E3C1F6CB8F3811AD79D2 /* Pod */,
 				460D5613C8662918475705EA424764AE /* Support Files */,
 			);
@@ -423,6 +421,8 @@
 		914E31602320CE0E00CF6862 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				914E31682320D66C00CF6862 /* FieldType.swift */,
+				914E31612320CE2B00CF6862 /* Options.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
