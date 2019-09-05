@@ -5,8 +5,6 @@
 //  Created by Sunita Moond on 05/09/19.
 //
 
-import UIKit
-
 import Foundation
 import UIKit
 

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Formfeild'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Formfeild.'
+  s.summary          = 'Creat pod for form field.'
   s.swift_version    = '4.0'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Cell/*.swift'
+  s.source_files = '*.swift'
  
   
   # s.resource_bundles = {
