@@ -1,6 +1,10 @@
 use_frameworks!
 
 target 'Formfeild_Example' do
+  
+  pod 'M13Checkbox'
+  pod 'SkyFloatingLabelTextField', '~> 3.0'
+  pod 'TagListView', '~> 1.0'
   pod 'Formfeild', :path => '../'
 
   target 'Formfeild_Tests' do

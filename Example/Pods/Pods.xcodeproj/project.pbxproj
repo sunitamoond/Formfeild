@@ -1,0 +1,1514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0347EFB32FA1A7DCFDC87630AF738EDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53EAB1F5C9CA9FFA14DEEE9B12182FA /* CoreGraphics.framework */; };
+		06636EA7439535DA4C37155C6E2A27DB /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA4D5FF6B346106440C31A57A1CA7BC /* M13CheckboxPathGenerator.swift */; };
+		095C55D87A86296323116A8B3698D432 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A89420E70707082B49AD0086FB98CC /* Foundation.framework */; };
+		0A514DF2F6AA4CF04166EDDC875609B2 /* Pods-Formfeild_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1820B9705244C13050ABC699C566644C /* Pods-Formfeild_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A6B86C8D55A1CC3E6A5DE8863961256 /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3D9916D68CE773E66DB06DAC9E2D5 /* M13CheckboxDisclosurePathGenerator.swift */; };
+		1426605BA6C27BE4F20307BB8B0C10AF /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A04C96E7BD914D2F80854E7D479299 /* SkyFloatingLabelTextField.swift */; };
+		18C25B06E57623721D5B83CDFEC9F402 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B3F5BF17351D8FC0919B20FEDD9CD3 /* TagListView.swift */; };
+		199A99334AFA81BD68CC3A87A865BE14 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD18EE47DE41B1187F2BAAE80BDF745 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A7B495AB7C2AAD23120B813B1F5E34A /* Formfeild-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B45E4B3D6E3DE9D98C29EC1623A900 /* Formfeild-dummy.m */; };
+		202D6973A76B9CEDB5450111682B051B /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A93BBD8A3C0AC5935C1177D2E77A1A /* CloseButton.swift */; };
+		2250E3103507BD4095B09E0BC9CC3C05 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785875D850F5F9573B1856DE139F34DA /* M13CheckboxController.swift */; };
+		28AB50F79C91CA7E7420565571CB5251 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505DD6A91BDCCC939B2247B15B8EAF7F /* M13CheckboxGestureRecognizer.swift */; };
+		306C38C6774CB8742F8FF5F38E483509 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B866DB954C910724A8A2DB99DEA967 /* UITextField+fixCaretPosition.swift */; };
+		312A4D99CF5CE848DBFA233AFA11C8E6 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F1A76776AFF245A7DD73C08744807E /* TagView.swift */; };
+		37DAD42F9CD01B40F60F004DDCB6CBFA /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20C4F613E524EB4492BD427998503D /* M13CheckboxFlatController.swift */; };
+		418F680168A571D50D98F0D31C08C870 /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1EE7D3A6E1A3A4E29E3B4318BB65D2 /* M13CheckboxStrokeController.swift */; };
+		44A6337F49992EB39DF728F80C20030F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A89420E70707082B49AD0086FB98CC /* Foundation.framework */; };
+		51232AFB894EABB1F42761BAB513C9E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A89420E70707082B49AD0086FB98CC /* Foundation.framework */; };
+		71D9E81B770A81F727912CD3F6C4758C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A89420E70707082B49AD0086FB98CC /* Foundation.framework */; };
+		72B93EEACD6F02B6EA26C0D81B7A8662 /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DE2BED85967039B138B24885241A7A8 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76FD24D5B0789855081CF77D0973D9C3 /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CD572FECCC390A09EB6FC9676C1CE3 /* DefaultValues.swift */; };
+		78ED603F70BECB138D3DDB4702ACEFA4 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA02B2972F1FB0B3F8F1B5E6BAA17EC /* M13CheckboxBounceController.swift */; };
+		7A6E0DFCFCD086866AE10622BC74DEAE /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9EBB9B00BC52E86A77AA579A5302A4 /* M13CheckboxFadeController.swift */; };
+		80187DA8F6902B4A8E92B7E057EBA066 /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AEE9155DEC96A867FE9368009F5F08 /* M13CheckboxFillController.swift */; };
+		83D0D4EE5FD0534AF85DC30BDE2C4C07 /* Formfeild-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8470B4943023BE96B6EE399C2373545C /* Formfeild-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C8E6AE39571B1076A026055422AA99 /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63D6BB6339648A71F36FDA7C9E06051 /* M13CheckboxAnimationGenerator.swift */; };
+		8F10DF1C5B34E83DA7644A7CBFE40717 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A91393CCBDF807BC2315A6D1ACCDDFE8 /* SkyFloatingLabelTextField-dummy.m */; };
+		914E31572320CC2900CF6862 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E31562320CC2900CF6862 /* AppColor.swift */; };
+		914E315A2320CC6A00CF6862 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E31592320CC6A00CF6862 /* Color+Extension.swift */; };
+		914E315C2320CD0D00CF6862 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E315B2320CD0D00CF6862 /* Font+Extension.swift */; };
+		914E315F2320CD8B00CF6862 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E315E2320CD8B00CF6862 /* AppFont.swift */; };
+		914E31622320CE2B00CF6862 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E31612320CE2B00CF6862 /* Options.swift */; };
+		914E31652320D5BD00CF6862 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E31642320D5BD00CF6862 /* UIDevice+Extension.swift */; };
+		914E31672320D5E600CF6862 /* SelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E31662320D5E600CF6862 /* SelectionCell.swift */; };
+		914E31692320D66C00CF6862 /* FieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E31682320D66C00CF6862 /* FieldType.swift */; };
+		93F560AF1551474DCFF92F2525ADD34B /* TagListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C0BB2E48E45BEE4F1FDC0EA740A0CC /* TagListView-dummy.m */; };
+		9CDA1EBE6035B693837D5D7E86FA768D /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4FF5BCF48EBF22E61331ABA287417 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		9E1C160E48F68F4C2E26400854639E99 /* Pods-Formfeild_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 616E2050C648A46ACFF239C74BE8DD2B /* Pods-Formfeild_Example-dummy.m */; };
+		A4B8DBB5670FFB158A5C51F2DB702B9E /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E35934609638542A3462E307680A54 /* M13CheckboxSpiralController.swift */; };
+		AC5435D56ACFCB53DF915EF1D19A8235 /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AF87381689393F590565186A1778F /* M13Checkbox-dummy.m */; };
+		B665499895AAE3D063A99352A871CCAD /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834C4141CA58FAD6161E62C92B3D883E /* M13Checkbox+IB.swift */; };
+		B8D688718C2A833C0D989E1DE9E25A78 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81AB635D0021D9C72A14859E4C71E20 /* M13Checkbox.swift */; };
+		CCB73A0BCE4832C27C949F25448D3460 /* Pods-Formfeild_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D464728595C80E6F6AA66C746C7096EC /* Pods-Formfeild_Tests-dummy.m */; };
+		D3ACAE607EC22A7D33C5D168DE32D793 /* M13Checkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76D38092E5310DA3328024FF59A950D /* M13Checkbox.framework */; };
+		D50698D8A76CD51084FDD7DFDB85B2C3 /* Pods-Formfeild_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8D4D57DB844337A5BB2FDEE396A47C /* Pods-Formfeild_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD35EC76FA39A48B8B7D353D25EAB448 /* TagListView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DED9E1463BC020E9AC158469F6C7308 /* TagListView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2C5CE9D1CD5BFC9D5FB5F9D614B3CA1 /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA09A3C4333710F9440BB4F2F84D60 /* M13CheckboxRadioPathGenerator.swift */; };
+		E3C9BA316915F284A7A974055393B9C2 /* Formfeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602827A539B5605EE7957AE60EBC97A7 /* Formfeild.swift */; };
+		E91975F368CDA99F2658213B3F5B462A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A89420E70707082B49AD0086FB98CC /* Foundation.framework */; };
+		EFD6E643927C4B8F7FB0EE851555FD05 /* TagListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C50F285E51DA63051561EF434036C2 /* TagListView.framework */; };
+		F01F20D4C4B68FE1FDDAA44F6CF38111 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593CC31242423FCCC41109B1E67497CA /* M13CheckboxAddRemovePathGenerator.swift */; };
+		F32770AD8E4A1045BAA1BD6152C45A75 /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A00A3D9AF1F1D96503A9D591F1B325 /* M13CheckboxDotController.swift */; };
+		F45B5FC73CA969654698E70EFD43A70E /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A0A51545B95A2CD03A902D7452E9EA /* M13CheckboxExpandController.swift */; };
+		F7C73E628E9C152A49460775B829A452 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02E4FB2C5C3897907044D79E90220D9 /* M13CheckboxCheckPathGenerator.swift */; };
+		FAA145F42CDA349AF9DE818BE6822719 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71702CEB4E83EA117FC74EE6452B6FA5 /* UIKit.framework */; };
+		FE55AC70A3E5CE3A97B8068D0BFFE731 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A89420E70707082B49AD0086FB98CC /* Foundation.framework */; };
+		FF1BF3C127385B397C4088D04F4166CC /* SkyFloatingLabelTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66819CA0969E1BD42D49FA2A1612E41 /* SkyFloatingLabelTextField.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0210BA48B725CBA0B215616789DA0A1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95E187BAF293B976768B6E05EB713CED;
+			remoteInfo = Formfeild;
+		};
+		1EF905FED6E40523726E4BE380A4B7A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D9226654B0F9A4B0C226E6EFBB84EA1;
+			remoteInfo = "Pods-Formfeild_Example";
+		};
+		2038D9E786896547A7B37330416AE849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		5CF89C2B0D291A248E4E24298D9F3D45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		653F95AD4201C0631EEF65B6BABF1F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43A58FC22C898DE29F6E12FE9636507;
+			remoteInfo = TagListView;
+		};
+		749CF225EF572F29DFC34F558E311591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43A58FC22C898DE29F6E12FE9636507;
+			remoteInfo = TagListView;
+		};
+		B55EF5D8639BEFC9EC29753E2572B162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7111E54EAE43E89F451A75076C3525ED;
+			remoteInfo = M13Checkbox;
+		};
+		D2426125D723A1A9809FAD4439D31C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7111E54EAE43E89F451A75076C3525ED;
+			remoteInfo = M13Checkbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CD572FECCC390A09EB6FC9676C1CE3 /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = Sources/DefaultValues.swift; sourceTree = "<group>"; };
+		0728547FD5196C1063F86FC327302EDB /* Pods-Formfeild_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Formfeild_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		07A912C6AB1B0E188346385452A8A68D /* Pods-Formfeild_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Formfeild_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0D8D4D57DB844337A5BB2FDEE396A47C /* Pods-Formfeild_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Formfeild_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0E1EB80C9D4672A18482D71832F04E4E /* TagListView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TagListView-Info.plist"; sourceTree = "<group>"; };
+		0E431A4121305AD7B8755CC6543C0B64 /* Formfeild.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Formfeild.xcconfig; sourceTree = "<group>"; };
+		0FB4FF5BCF48EBF22E61331ABA287417 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		12C0BB2E48E45BEE4F1FDC0EA740A0CC /* TagListView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TagListView-dummy.m"; sourceTree = "<group>"; };
+		16B3D9916D68CE773E66DB06DAC9E2D5 /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		17AEE9155DEC96A867FE9368009F5F08 /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		1820B9705244C13050ABC699C566644C /* Pods-Formfeild_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Formfeild_Example-umbrella.h"; sourceTree = "<group>"; };
+		21398EA66DE1E084ED151B183C1F0D6D /* Formfeild.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Formfeild.modulemap; sourceTree = "<group>"; };
+		27A04C96E7BD914D2F80854E7D479299 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		2C88B563C2C4A7FDFBF83CE9A2D64366 /* Formfeild.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Formfeild.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		36E9C4756EC028DDBB64C2F54A8D7198 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		37EFDEE8BD7A0F16E0FADC7624068E45 /* Pods_Formfeild_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Formfeild_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7CE64C47C85CBE7E9B70AC3ED15ABB /* Pods-Formfeild_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Formfeild_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45D986EDBFF1791F3712B46EF8CD3183 /* Formfeild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Formfeild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4615B2D25459D99BB1E4C4615F4C959A /* Pods-Formfeild_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Formfeild_Tests.modulemap"; sourceTree = "<group>"; };
+		4782E540BD00D770B0A62F62A34BAD13 /* Pods-Formfeild_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Formfeild_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4835A5733F525328D3798E2F33351CA2 /* Pods-Formfeild_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Formfeild_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4E1EE7D3A6E1A3A4E29E3B4318BB65D2 /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		4EA4D5FF6B346106440C31A57A1CA7BC /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		4ED3133EAFC6B0E5E2DA16002A52B740 /* Pods-Formfeild_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Formfeild_Example-Info.plist"; sourceTree = "<group>"; };
+		505DD6A91BDCCC939B2247B15B8EAF7F /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		5327432BF543C2E57B55FF2B2A753D12 /* TagListView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TagListView-prefix.pch"; sourceTree = "<group>"; };
+		593CC31242423FCCC41109B1E67497CA /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		5BD18EE47DE41B1187F2BAAE80BDF745 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		602827A539B5605EE7957AE60EBC97A7 /* Formfeild.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formfeild.swift; path = Formfeild/Classes/Formfeild.swift; sourceTree = "<group>"; };
+		616E2050C648A46ACFF239C74BE8DD2B /* Pods-Formfeild_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Formfeild_Example-dummy.m"; sourceTree = "<group>"; };
+		650CA323CB29F66ADC48D000C0AB83A6 /* Pods_Formfeild_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Formfeild_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65383EF1583869E67603F6290C5DBBFD /* Pods-Formfeild_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Formfeild_Example.modulemap"; sourceTree = "<group>"; };
+		662F9D90CAAA78B60841F77C81FC17FD /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		71702CEB4E83EA117FC74EE6452B6FA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		785875D850F5F9573B1856DE139F34DA /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		7926873E42DE8D096CC5FEF73E7F84B2 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		7E3D8F65CB4BEB64CFF8D09477BD0EFB /* Pods-Formfeild_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Formfeild_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7EFA09A3C4333710F9440BB4F2F84D60 /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		80365CB038D06E6AE01259739419530F /* Pods-Formfeild_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Formfeild_Tests-Info.plist"; sourceTree = "<group>"; };
+		834C4141CA58FAD6161E62C92B3D883E /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		8470B4943023BE96B6EE399C2373545C /* Formfeild-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Formfeild-umbrella.h"; sourceTree = "<group>"; };
+		85E4C71ED52304F1AB0503E80CD9CB1E /* TagListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TagListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BFE3295C84D30262DC81FC24B9C609 /* Pods-Formfeild_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Formfeild_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		885F668724A5F7F28F92F845CE3A1C91 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		8B0AF87381689393F590565186A1778F /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		8E20C4F613E524EB4492BD427998503D /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		914E31562320CC2900CF6862 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		914E31592320CC6A00CF6862 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		914E315B2320CD0D00CF6862 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		914E315E2320CD8B00CF6862 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		914E31612320CE2B00CF6862 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		914E31642320D5BD00CF6862 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		914E31662320D5E600CF6862 /* SelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionCell.swift; sourceTree = "<group>"; };
+		914E31682320D66C00CF6862 /* FieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldType.swift; sourceTree = "<group>"; };
+		94E35934609638542A3462E307680A54 /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		96A0A51545B95A2CD03A902D7452E9EA /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		97F1A76776AFF245A7DD73C08744807E /* TagView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagView.swift; path = TagListView/TagView.swift; sourceTree = "<group>"; };
+		9A1CCEB42716DC909F8FD4EEC7FC6F69 /* TagListView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TagListView.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE2BED85967039B138B24885241A7A8 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		9DED9E1463BC020E9AC158469F6C7308 /* TagListView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TagListView-umbrella.h"; sourceTree = "<group>"; };
+		A0B3F5BF17351D8FC0919B20FEDD9CD3 /* TagListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagListView.swift; path = TagListView/TagListView.swift; sourceTree = "<group>"; };
+		A0CA18B3D582C50EE09D97C0EE156E51 /* TagListView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TagListView.modulemap; sourceTree = "<group>"; };
+		A5A89420E70707082B49AD0086FB98CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A91393CCBDF807BC2315A6D1ACCDDFE8 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		A9F8AC70E761330FFFAD133D01CE6F3A /* Pods-Formfeild_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Formfeild_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AB7AF5C45E3E6C844EAD9FD25CD64DD7 /* Pods-Formfeild_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Formfeild_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC3941ADF10BAA858838B3996D4841A2 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		AD7C9853CD66CE97B4FA978DA3A86755 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		B5F48CF0B247BA3B2AC8B4B4C21020C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B66819CA0969E1BD42D49FA2A1612E41 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CE3837389FFFC2B79D73A9929A7F36 /* Formfeild-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Formfeild-Info.plist"; sourceTree = "<group>"; };
+		C76D38092E5310DA3328024FF59A950D /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA34E79F6F4F0982A9F552206FC59966 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		D02E4FB2C5C3897907044D79E90220D9 /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D464728595C80E6F6AA66C746C7096EC /* Pods-Formfeild_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Formfeild_Tests-dummy.m"; sourceTree = "<group>"; };
+		D63D6BB6339648A71F36FDA7C9E06051 /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		DE0EAD4B52B44412D1440125F73CCE76 /* M13Checkbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "M13Checkbox-Info.plist"; sourceTree = "<group>"; };
+		E4F0C26D5621E1651DDD325367E0127B /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
+		E5B45E4B3D6E3DE9D98C29EC1623A900 /* Formfeild-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Formfeild-dummy.m"; sourceTree = "<group>"; };
+		E8A00A3D9AF1F1D96503A9D591F1B325 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		E8A93BBD8A3C0AC5935C1177D2E77A1A /* CloseButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloseButton.swift; path = TagListView/CloseButton.swift; sourceTree = "<group>"; };
+		EFA02B2972F1FB0B3F8F1B5E6BAA17EC /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		F2C50F285E51DA63051561EF434036C2 /* TagListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TagListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B866DB954C910724A8A2DB99DEA967 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		F53EAB1F5C9CA9FFA14DEEE9B12182FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F81AB635D0021D9C72A14859E4C71E20 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		FD9EBB9B00BC52E86A77AA579A5302A4 /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		FF79B10B58AFC48791F8CDD3A35C6E53 /* Formfeild-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Formfeild-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B718E9760A3CF16800AD77CEE2AA9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A6337F49992EB39DF728F80C20030F /* Foundation.framework in Frameworks */,
+				D3ACAE607EC22A7D33C5D168DE32D793 /* M13Checkbox.framework in Frameworks */,
+				FF1BF3C127385B397C4088D04F4166CC /* SkyFloatingLabelTextField.framework in Frameworks */,
+				EFD6E643927C4B8F7FB0EE851555FD05 /* TagListView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEED3A8D69C9CAB42C6BB12D80B5C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				095C55D87A86296323116A8B3698D432 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34AB22D178548E7564A50CBD13AEA17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE55AC70A3E5CE3A97B8068D0BFFE731 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEFF8368E74FE57FFE27033E80738A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D9E81B770A81F727912CD3F6C4758C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C97852CDE64FABF3BA7DE7821F241A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91975F368CDA99F2658213B3F5B462A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F4C22E1D8D5225E3C2FB93B302B5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0347EFB32FA1A7DCFDC87630AF738EDB /* CoreGraphics.framework in Frameworks */,
+				51232AFB894EABB1F42761BAB513C9E2 /* Foundation.framework in Frameworks */,
+				FAA145F42CDA349AF9DE818BE6822719 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F02856EB2CC1C3CC378CCEAC80A425B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F02A8694ADF4E3D256C7383C3A534EC /* Pods-Formfeild_Example */,
+				C7F042FB966834187E34B1802CF8F3AA /* Pods-Formfeild_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1F17CFA5E177FCE620517C26F921A7AF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7926873E42DE8D096CC5FEF73E7F84B2 /* SkyFloatingLabelTextField.modulemap */,
+				AD7C9853CD66CE97B4FA978DA3A86755 /* SkyFloatingLabelTextField.xcconfig */,
+				A91393CCBDF807BC2315A6D1ACCDDFE8 /* SkyFloatingLabelTextField-dummy.m */,
+				E4F0C26D5621E1651DDD325367E0127B /* SkyFloatingLabelTextField-Info.plist */,
+				AC3941ADF10BAA858838B3996D4841A2 /* SkyFloatingLabelTextField-prefix.pch */,
+				5BD18EE47DE41B1187F2BAAE80BDF745 /* SkyFloatingLabelTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		240315ACE8AD692397BCB3CE928A4295 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA34E79F6F4F0982A9F552206FC59966 /* M13Checkbox.modulemap */,
+				885F668724A5F7F28F92F845CE3A1C91 /* M13Checkbox.xcconfig */,
+				8B0AF87381689393F590565186A1778F /* M13Checkbox-dummy.m */,
+				DE0EAD4B52B44412D1440125F73CCE76 /* M13Checkbox-Info.plist */,
+				662F9D90CAAA78B60841F77C81FC17FD /* M13Checkbox-prefix.pch */,
+				9DE2BED85967039B138B24885241A7A8 /* M13Checkbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		331FBE28A49D4C24242BF0016E2FF6B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98A6406F03360D7B94C1B7C0ECF43F20 /* M13Checkbox */,
+				FC0F708D6D2395ED664ED7181FF9B6F8 /* SkyFloatingLabelTextField */,
+				8DC5D42CE525F95E2887C569DC7790DC /* TagListView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B81E4725A48244F676B92CD4EC73164 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C76D38092E5310DA3328024FF59A950D /* M13Checkbox.framework */,
+				B66819CA0969E1BD42D49FA2A1612E41 /* SkyFloatingLabelTextField.framework */,
+				F2C50F285E51DA63051561EF434036C2 /* TagListView.framework */,
+				D93D77842A3ED77B07E647AEE2DB5214 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		460D5613C8662918475705EA424764AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21398EA66DE1E084ED151B183C1F0D6D /* Formfeild.modulemap */,
+				0E431A4121305AD7B8755CC6543C0B64 /* Formfeild.xcconfig */,
+				E5B45E4B3D6E3DE9D98C29EC1623A900 /* Formfeild-dummy.m */,
+				C1CE3837389FFFC2B79D73A9929A7F36 /* Formfeild-Info.plist */,
+				FF79B10B58AFC48791F8CDD3A35C6E53 /* Formfeild-prefix.pch */,
+				8470B4943023BE96B6EE399C2373545C /* Formfeild-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Formfeild";
+			sourceTree = "<group>";
+		};
+		492567D259D245A14DFCD355521C1A33 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B5BF788320C8461CA1608CB0DEB3549 /* Formfeild */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4F02A8694ADF4E3D256C7383C3A534EC /* Pods-Formfeild_Example */ = {
+			isa = PBXGroup;
+			children = (
+				65383EF1583869E67603F6290C5DBBFD /* Pods-Formfeild_Example.modulemap */,
+				3C7CE64C47C85CBE7E9B70AC3ED15ABB /* Pods-Formfeild_Example-acknowledgements.markdown */,
+				0728547FD5196C1063F86FC327302EDB /* Pods-Formfeild_Example-acknowledgements.plist */,
+				616E2050C648A46ACFF239C74BE8DD2B /* Pods-Formfeild_Example-dummy.m */,
+				4835A5733F525328D3798E2F33351CA2 /* Pods-Formfeild_Example-frameworks.sh */,
+				4ED3133EAFC6B0E5E2DA16002A52B740 /* Pods-Formfeild_Example-Info.plist */,
+				1820B9705244C13050ABC699C566644C /* Pods-Formfeild_Example-umbrella.h */,
+				7E3D8F65CB4BEB64CFF8D09477BD0EFB /* Pods-Formfeild_Example.debug.xcconfig */,
+				A9F8AC70E761330FFFAD133D01CE6F3A /* Pods-Formfeild_Example.release.xcconfig */,
+			);
+			name = "Pods-Formfeild_Example";
+			path = "Target Support Files/Pods-Formfeild_Example";
+			sourceTree = "<group>";
+		};
+		7B5BF788320C8461CA1608CB0DEB3549 /* Formfeild */ = {
+			isa = PBXGroup;
+			children = (
+				914E31632320D50900CF6862 /* Cell */,
+				914E31602320CE0E00CF6862 /* Model */,
+				914E315D2320CD7600CF6862 /* Constants */,
+				914E31582320CC4A00CF6862 /* Extenstions */,
+				602827A539B5605EE7957AE60EBC97A7 /* Formfeild.swift */,
+				F057C9DA8453E3C1F6CB8F3811AD79D2 /* Pod */,
+				460D5613C8662918475705EA424764AE /* Support Files */,
+			);
+			name = Formfeild;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8DC5D42CE525F95E2887C569DC7790DC /* TagListView */ = {
+			isa = PBXGroup;
+			children = (
+				E8A93BBD8A3C0AC5935C1177D2E77A1A /* CloseButton.swift */,
+				A0B3F5BF17351D8FC0919B20FEDD9CD3 /* TagListView.swift */,
+				97F1A76776AFF245A7DD73C08744807E /* TagView.swift */,
+				B27718DB47809635A29FC1A641A3AB82 /* Support Files */,
+			);
+			path = TagListView;
+			sourceTree = "<group>";
+		};
+		914E31582320CC4A00CF6862 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				914E31592320CC6A00CF6862 /* Color+Extension.swift */,
+				914E315B2320CD0D00CF6862 /* Font+Extension.swift */,
+				914E31642320D5BD00CF6862 /* UIDevice+Extension.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		914E315D2320CD7600CF6862 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				914E31562320CC2900CF6862 /* AppColor.swift */,
+				914E315E2320CD8B00CF6862 /* AppFont.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		914E31602320CE0E00CF6862 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				914E31612320CE2B00CF6862 /* Options.swift */,
+				914E31682320D66C00CF6862 /* FieldType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		914E31632320D50900CF6862 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				914E31662320D5E600CF6862 /* SelectionCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		98A6406F03360D7B94C1B7C0ECF43F20 /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				01CD572FECCC390A09EB6FC9676C1CE3 /* DefaultValues.swift */,
+				F81AB635D0021D9C72A14859E4C71E20 /* M13Checkbox.swift */,
+				834C4141CA58FAD6161E62C92B3D883E /* M13Checkbox+IB.swift */,
+				593CC31242423FCCC41109B1E67497CA /* M13CheckboxAddRemovePathGenerator.swift */,
+				D63D6BB6339648A71F36FDA7C9E06051 /* M13CheckboxAnimationGenerator.swift */,
+				EFA02B2972F1FB0B3F8F1B5E6BAA17EC /* M13CheckboxBounceController.swift */,
+				D02E4FB2C5C3897907044D79E90220D9 /* M13CheckboxCheckPathGenerator.swift */,
+				785875D850F5F9573B1856DE139F34DA /* M13CheckboxController.swift */,
+				16B3D9916D68CE773E66DB06DAC9E2D5 /* M13CheckboxDisclosurePathGenerator.swift */,
+				E8A00A3D9AF1F1D96503A9D591F1B325 /* M13CheckboxDotController.swift */,
+				96A0A51545B95A2CD03A902D7452E9EA /* M13CheckboxExpandController.swift */,
+				FD9EBB9B00BC52E86A77AA579A5302A4 /* M13CheckboxFadeController.swift */,
+				17AEE9155DEC96A867FE9368009F5F08 /* M13CheckboxFillController.swift */,
+				8E20C4F613E524EB4492BD427998503D /* M13CheckboxFlatController.swift */,
+				505DD6A91BDCCC939B2247B15B8EAF7F /* M13CheckboxGestureRecognizer.swift */,
+				4EA4D5FF6B346106440C31A57A1CA7BC /* M13CheckboxPathGenerator.swift */,
+				7EFA09A3C4333710F9440BB4F2F84D60 /* M13CheckboxRadioPathGenerator.swift */,
+				94E35934609638542A3462E307680A54 /* M13CheckboxSpiralController.swift */,
+				4E1EE7D3A6E1A3A4E29E3B4318BB65D2 /* M13CheckboxStrokeController.swift */,
+				240315ACE8AD692397BCB3CE928A4295 /* Support Files */,
+			);
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		B27718DB47809635A29FC1A641A3AB82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA18B3D582C50EE09D97C0EE156E51 /* TagListView.modulemap */,
+				9A1CCEB42716DC909F8FD4EEC7FC6F69 /* TagListView.xcconfig */,
+				12C0BB2E48E45BEE4F1FDC0EA740A0CC /* TagListView-dummy.m */,
+				0E1EB80C9D4672A18482D71832F04E4E /* TagListView-Info.plist */,
+				5327432BF543C2E57B55FF2B2A753D12 /* TagListView-prefix.pch */,
+				9DED9E1463BC020E9AC158469F6C7308 /* TagListView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TagListView";
+			sourceTree = "<group>";
+		};
+		C7F042FB966834187E34B1802CF8F3AA /* Pods-Formfeild_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4615B2D25459D99BB1E4C4615F4C959A /* Pods-Formfeild_Tests.modulemap */,
+				87BFE3295C84D30262DC81FC24B9C609 /* Pods-Formfeild_Tests-acknowledgements.markdown */,
+				4782E540BD00D770B0A62F62A34BAD13 /* Pods-Formfeild_Tests-acknowledgements.plist */,
+				D464728595C80E6F6AA66C746C7096EC /* Pods-Formfeild_Tests-dummy.m */,
+				80365CB038D06E6AE01259739419530F /* Pods-Formfeild_Tests-Info.plist */,
+				0D8D4D57DB844337A5BB2FDEE396A47C /* Pods-Formfeild_Tests-umbrella.h */,
+				AB7AF5C45E3E6C844EAD9FD25CD64DD7 /* Pods-Formfeild_Tests.debug.xcconfig */,
+				07A912C6AB1B0E188346385452A8A68D /* Pods-Formfeild_Tests.release.xcconfig */,
+			);
+			name = "Pods-Formfeild_Tests";
+			path = "Target Support Files/Pods-Formfeild_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				492567D259D245A14DFCD355521C1A33 /* Development Pods */,
+				3B81E4725A48244F676B92CD4EC73164 /* Frameworks */,
+				331FBE28A49D4C24242BF0016E2FF6B3 /* Pods */,
+				F887C46CC9A51288FE51ED2F1CBB0A17 /* Products */,
+				1F02856EB2CC1C3CC378CCEAC80A425B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D93D77842A3ED77B07E647AEE2DB5214 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F53EAB1F5C9CA9FFA14DEEE9B12182FA /* CoreGraphics.framework */,
+				A5A89420E70707082B49AD0086FB98CC /* Foundation.framework */,
+				71702CEB4E83EA117FC74EE6452B6FA5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F057C9DA8453E3C1F6CB8F3811AD79D2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2C88B563C2C4A7FDFBF83CE9A2D64366 /* Formfeild.podspec */,
+				36E9C4756EC028DDBB64C2F54A8D7198 /* LICENSE */,
+				B5F48CF0B247BA3B2AC8B4B4C21020C7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F887C46CC9A51288FE51ED2F1CBB0A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45D986EDBFF1791F3712B46EF8CD3183 /* Formfeild.framework */,
+				5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */,
+				37EFDEE8BD7A0F16E0FADC7624068E45 /* Pods_Formfeild_Example.framework */,
+				650CA323CB29F66ADC48D000C0AB83A6 /* Pods_Formfeild_Tests.framework */,
+				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */,
+				85E4C71ED52304F1AB0503E80CD9CB1E /* TagListView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC0F708D6D2395ED664ED7181FF9B6F8 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				27A04C96E7BD914D2F80854E7D479299 /* SkyFloatingLabelTextField.swift */,
+				0FB4FF5BCF48EBF22E61331ABA287417 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				F3B866DB954C910724A8A2DB99DEA967 /* UITextField+fixCaretPosition.swift */,
+				1F17CFA5E177FCE620517C26F921A7AF /* Support Files */,
+			);
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12DFF161D80171B74D9B133A5033E825 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B93EEACD6F02B6EA26C0D81B7A8662 /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71847EFB47750D3A07722BF12E2E8AE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199A99334AFA81BD68CC3A87A865BE14 /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765019D64DA5022D2E9041F0C5D1D5D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A514DF2F6AA4CF04166EDDC875609B2 /* Pods-Formfeild_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987F9772665183145112CDF54C74B06B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD35EC76FA39A48B8B7D353D25EAB448 /* TagListView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E2E94400B995DF6BBE72AF10F3AE0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D0D4EE5FD0534AF85DC30BDE2C4C07 /* Formfeild-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3B9636731D65FD818FFC467945DAED6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50698D8A76CD51084FDD7DFDB85B2C3 /* Pods-Formfeild_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D9226654B0F9A4B0C226E6EFBB84EA1 /* Pods-Formfeild_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4381CEB16804D3052A4F18DAF87FA9C /* Build configuration list for PBXNativeTarget "Pods-Formfeild_Example" */;
+			buildPhases = (
+				765019D64DA5022D2E9041F0C5D1D5D9 /* Headers */,
+				4432E155442BEE3DF2282F1D49FA0B45 /* Sources */,
+				2BEED3A8D69C9CAB42C6BB12D80B5C87 /* Frameworks */,
+				66C13C2AD53661CD3BA2363B2ACA1664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8976B391FD92D000D36BE78C6FC42D02 /* PBXTargetDependency */,
+				F303972F8F4DE92D5D419A42B8AFF88E /* PBXTargetDependency */,
+				EDF8D007A57B5AB2A67A5A3892197F53 /* PBXTargetDependency */,
+				5556411BE2C393D060754FE2F3F8A67C /* PBXTargetDependency */,
+			);
+			name = "Pods-Formfeild_Example";
+			productName = "Pods-Formfeild_Example";
+			productReference = 37EFDEE8BD7A0F16E0FADC7624068E45 /* Pods_Formfeild_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54150EDA1222897D0A30719B0567E152 /* Pods-Formfeild_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8248A4CAAD254ED4D5EF4218050BE3C0 /* Build configuration list for PBXNativeTarget "Pods-Formfeild_Tests" */;
+			buildPhases = (
+				D3B9636731D65FD818FFC467945DAED6 /* Headers */,
+				74D3792F2668A114227B980F50821804 /* Sources */,
+				A34AB22D178548E7564A50CBD13AEA17 /* Frameworks */,
+				60A90CCD5CA4495C3692EE2FAEF27197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				489767A89A06D28A882EF4BD8105B3BC /* PBXTargetDependency */,
+			);
+			name = "Pods-Formfeild_Tests";
+			productName = "Pods-Formfeild_Tests";
+			productReference = 650CA323CB29F66ADC48D000C0AB83A6 /* Pods_Formfeild_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BEDCDEEBB12BBF4CE120DEE11C7689 /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				12DFF161D80171B74D9B133A5033E825 /* Headers */,
+				C32C5BFD571D8B796D753CCC2286A80E /* Sources */,
+				F0F4C22E1D8D5225E3C2FB93B302B5AA /* Frameworks */,
+				96BB04C0ACCC22A5D89CDC7034C0E3B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = 5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95E187BAF293B976768B6E05EB713CED /* Formfeild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CFF0E91872170A17C767024E6FD53C /* Build configuration list for PBXNativeTarget "Formfeild" */;
+			buildPhases = (
+				C7E2E94400B995DF6BBE72AF10F3AE0D /* Headers */,
+				85947E0791A6EE05D0D34CA7D45DB67E /* Sources */,
+				17B718E9760A3CF16800AD77CEE2AA9E /* Frameworks */,
+				4B5A5E8F05F0EAC18FE563F539BF1D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBD7C66287869CEA69ABCB7956C200D5 /* PBXTargetDependency */,
+				CE816E3B9A4ADDEED46B48D532436411 /* PBXTargetDependency */,
+				38ECBCD7E0B8007D47126CBBA4F85D1B /* PBXTargetDependency */,
+			);
+			name = Formfeild;
+			productName = Formfeild;
+			productReference = 45D986EDBFF1791F3712B46EF8CD3183 /* Formfeild.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B43A58FC22C898DE29F6E12FE9636507 /* TagListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3901F86F55C6DE59160F3FF5F24F614D /* Build configuration list for PBXNativeTarget "TagListView" */;
+			buildPhases = (
+				987F9772665183145112CDF54C74B06B /* Headers */,
+				58E6A0F9F93E886DCCEEF55240C8D4B2 /* Sources */,
+				E1C97852CDE64FABF3BA7DE7821F241A /* Frameworks */,
+				817C311F8DFE5F3B0EE0E491C76B94C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagListView;
+			productName = TagListView;
+			productReference = 85E4C71ED52304F1AB0503E80CD9CB1E /* TagListView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6601F183EC2DBB25FAAD1D2C091A043C /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				71847EFB47750D3A07722BF12E2E8AE6 /* Headers */,
+				EC755FA91C493AA2C6EFF84CB190CAF3 /* Sources */,
+				DCEFF8368E74FE57FFE27033E80738A7 /* Frameworks */,
+				2CB146391FB96061B64BABD3EE254191 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F887C46CC9A51288FE51ED2F1CBB0A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95E187BAF293B976768B6E05EB713CED /* Formfeild */,
+				7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */,
+				4D9226654B0F9A4B0C226E6EFBB84EA1 /* Pods-Formfeild_Example */,
+				54150EDA1222897D0A30719B0567E152 /* Pods-Formfeild_Tests */,
+				DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */,
+				B43A58FC22C898DE29F6E12FE9636507 /* TagListView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CB146391FB96061B64BABD3EE254191 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5A5E8F05F0EAC18FE563F539BF1D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60A90CCD5CA4495C3692EE2FAEF27197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C13C2AD53661CD3BA2363B2ACA1664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817C311F8DFE5F3B0EE0E491C76B94C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BB04C0ACCC22A5D89CDC7034C0E3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4432E155442BEE3DF2282F1D49FA0B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1C160E48F68F4C2E26400854639E99 /* Pods-Formfeild_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58E6A0F9F93E886DCCEEF55240C8D4B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202D6973A76B9CEDB5450111682B051B /* CloseButton.swift in Sources */,
+				93F560AF1551474DCFF92F2525ADD34B /* TagListView-dummy.m in Sources */,
+				18C25B06E57623721D5B83CDFEC9F402 /* TagListView.swift in Sources */,
+				312A4D99CF5CE848DBFA233AFA11C8E6 /* TagView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74D3792F2668A114227B980F50821804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB73A0BCE4832C27C949F25448D3460 /* Pods-Formfeild_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85947E0791A6EE05D0D34CA7D45DB67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7B495AB7C2AAD23120B813B1F5E34A /* Formfeild-dummy.m in Sources */,
+				914E31652320D5BD00CF6862 /* UIDevice+Extension.swift in Sources */,
+				914E31672320D5E600CF6862 /* SelectionCell.swift in Sources */,
+				914E315C2320CD0D00CF6862 /* Font+Extension.swift in Sources */,
+				914E315F2320CD8B00CF6862 /* AppFont.swift in Sources */,
+				E3C9BA316915F284A7A974055393B9C2 /* Formfeild.swift in Sources */,
+				914E31692320D66C00CF6862 /* FieldType.swift in Sources */,
+				914E31572320CC2900CF6862 /* AppColor.swift in Sources */,
+				914E315A2320CC6A00CF6862 /* Color+Extension.swift in Sources */,
+				914E31622320CE2B00CF6862 /* Options.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32C5BFD571D8B796D753CCC2286A80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FD24D5B0789855081CF77D0973D9C3 /* DefaultValues.swift in Sources */,
+				B665499895AAE3D063A99352A871CCAD /* M13Checkbox+IB.swift in Sources */,
+				AC5435D56ACFCB53DF915EF1D19A8235 /* M13Checkbox-dummy.m in Sources */,
+				B8D688718C2A833C0D989E1DE9E25A78 /* M13Checkbox.swift in Sources */,
+				F01F20D4C4B68FE1FDDAA44F6CF38111 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
+				85C8E6AE39571B1076A026055422AA99 /* M13CheckboxAnimationGenerator.swift in Sources */,
+				78ED603F70BECB138D3DDB4702ACEFA4 /* M13CheckboxBounceController.swift in Sources */,
+				F7C73E628E9C152A49460775B829A452 /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				2250E3103507BD4095B09E0BC9CC3C05 /* M13CheckboxController.swift in Sources */,
+				0A6B86C8D55A1CC3E6A5DE8863961256 /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
+				F32770AD8E4A1045BAA1BD6152C45A75 /* M13CheckboxDotController.swift in Sources */,
+				F45B5FC73CA969654698E70EFD43A70E /* M13CheckboxExpandController.swift in Sources */,
+				7A6E0DFCFCD086866AE10622BC74DEAE /* M13CheckboxFadeController.swift in Sources */,
+				80187DA8F6902B4A8E92B7E057EBA066 /* M13CheckboxFillController.swift in Sources */,
+				37DAD42F9CD01B40F60F004DDCB6CBFA /* M13CheckboxFlatController.swift in Sources */,
+				28AB50F79C91CA7E7420565571CB5251 /* M13CheckboxGestureRecognizer.swift in Sources */,
+				06636EA7439535DA4C37155C6E2A27DB /* M13CheckboxPathGenerator.swift in Sources */,
+				E2C5CE9D1CD5BFC9D5FB5F9D614B3CA1 /* M13CheckboxRadioPathGenerator.swift in Sources */,
+				A4B8DBB5670FFB158A5C51F2DB702B9E /* M13CheckboxSpiralController.swift in Sources */,
+				418F680168A571D50D98F0D31C08C870 /* M13CheckboxStrokeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC755FA91C493AA2C6EFF84CB190CAF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F10DF1C5B34E83DA7644A7CBFE40717 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				1426605BA6C27BE4F20307BB8B0C10AF /* SkyFloatingLabelTextField.swift in Sources */,
+				9CDA1EBE6035B693837D5D7E86FA768D /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				306C38C6774CB8742F8FF5F38E483509 /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38ECBCD7E0B8007D47126CBBA4F85D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TagListView;
+			target = B43A58FC22C898DE29F6E12FE9636507 /* TagListView */;
+			targetProxy = 749CF225EF572F29DFC34F558E311591 /* PBXContainerItemProxy */;
+		};
+		489767A89A06D28A882EF4BD8105B3BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Formfeild_Example";
+			target = 4D9226654B0F9A4B0C226E6EFBB84EA1 /* Pods-Formfeild_Example */;
+			targetProxy = 1EF905FED6E40523726E4BE380A4B7A3 /* PBXContainerItemProxy */;
+		};
+		5556411BE2C393D060754FE2F3F8A67C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TagListView;
+			target = B43A58FC22C898DE29F6E12FE9636507 /* TagListView */;
+			targetProxy = 653F95AD4201C0631EEF65B6BABF1F66 /* PBXContainerItemProxy */;
+		};
+		8976B391FD92D000D36BE78C6FC42D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Formfeild;
+			target = 95E187BAF293B976768B6E05EB713CED /* Formfeild */;
+			targetProxy = 0210BA48B725CBA0B215616789DA0A1A /* PBXContainerItemProxy */;
+		};
+		BBD7C66287869CEA69ABCB7956C200D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */;
+			targetProxy = D2426125D723A1A9809FAD4439D31C57 /* PBXContainerItemProxy */;
+		};
+		CE816E3B9A4ADDEED46B48D532436411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
+			targetProxy = 5CF89C2B0D291A248E4E24298D9F3D45 /* PBXContainerItemProxy */;
+		};
+		EDF8D007A57B5AB2A67A5A3892197F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
+			targetProxy = 2038D9E786896547A7B37330416AE849 /* PBXContainerItemProxy */;
+		};
+		F303972F8F4DE92D5D419A42B8AFF88E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */;
+			targetProxy = B55EF5D8639BEFC9EC29753E2572B162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DE35847F394B71B9C4837284EFD4741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3D8F65CB4BEB64CFF8D09477BD0EFB /* Pods-Formfeild_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Formfeild_Example/Pods-Formfeild_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Formfeild_Example/Pods-Formfeild_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C5E9C957213F20DF414F110F9DBC3B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A912C6AB1B0E188346385452A8A68D /* Pods-Formfeild_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Formfeild_Tests/Pods-Formfeild_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Formfeild_Tests/Pods-Formfeild_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35F67A02B7111E324E1883B4130FB302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7AF5C45E3E6C844EAD9FD25CD64DD7 /* Pods-Formfeild_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Formfeild_Tests/Pods-Formfeild_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Formfeild_Tests/Pods-Formfeild_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42575E895BB6A892CB95A5998593B446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E431A4121305AD7B8755CC6543C0B64 /* Formfeild.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Formfeild/Formfeild-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Formfeild/Formfeild-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Formfeild/Formfeild.modulemap";
+				PRODUCT_MODULE_NAME = Formfeild;
+				PRODUCT_NAME = Formfeild;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49FD387CD192753A8DE34E0C26B53865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E431A4121305AD7B8755CC6543C0B64 /* Formfeild.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Formfeild/Formfeild-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Formfeild/Formfeild-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Formfeild/Formfeild.modulemap";
+				PRODUCT_MODULE_NAME = Formfeild;
+				PRODUCT_NAME = Formfeild;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		688CC54FD4CE42814790BC09E5987DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1CCEB42716DC909F8FD4EEC7FC6F69 /* TagListView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TagListView/TagListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TagListView/TagListView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TagListView/TagListView.modulemap";
+				PRODUCT_MODULE_NAME = TagListView;
+				PRODUCT_NAME = TagListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84F2529A6866DD9A0A36195870E41769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1CCEB42716DC909F8FD4EEC7FC6F69 /* TagListView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TagListView/TagListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TagListView/TagListView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TagListView/TagListView.modulemap";
+				PRODUCT_MODULE_NAME = TagListView;
+				PRODUCT_NAME = TagListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		884FAC1BDEFDE8174455B55A4B5DA89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD7C9853CD66CE97B4FA978DA3A86755 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8ADB2EB4859A3CE8BEDF1C9613837654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F8AC70E761330FFFAD133D01CE6F3A /* Pods-Formfeild_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Formfeild_Example/Pods-Formfeild_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Formfeild_Example/Pods-Formfeild_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B61195FE08CC1A8986B9C05889FF49CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885F668724A5F7F28F92F845CE3A1C91 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3A2EEA581F97FA140643F4FFE62EF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD7C9853CD66CE97B4FA978DA3A86755 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE48FF054B8FCD6CCCA75C652680B32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885F668724A5F7F28F92F845CE3A1C91 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3901F86F55C6DE59160F3FF5F24F614D /* Build configuration list for PBXNativeTarget "TagListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F2529A6866DD9A0A36195870E41769 /* Debug */,
+				688CC54FD4CE42814790BC09E5987DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BEDCDEEBB12BBF4CE120DEE11C7689 /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61195FE08CC1A8986B9C05889FF49CA /* Debug */,
+				FE48FF054B8FCD6CCCA75C652680B32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6601F183EC2DBB25FAAD1D2C091A043C /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A2EEA581F97FA140643F4FFE62EF86 /* Debug */,
+				884FAC1BDEFDE8174455B55A4B5DA89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8248A4CAAD254ED4D5EF4218050BE3C0 /* Build configuration list for PBXNativeTarget "Pods-Formfeild_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35F67A02B7111E324E1883B4130FB302 /* Debug */,
+				2C5E9C957213F20DF414F110F9DBC3B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CFF0E91872170A17C767024E6FD53C /* Build configuration list for PBXNativeTarget "Formfeild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42575E895BB6A892CB95A5998593B446 /* Debug */,
+				49FD387CD192753A8DE34E0C26B53865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4381CEB16804D3052A4F18DAF87FA9C /* Build configuration list for PBXNativeTarget "Pods-Formfeild_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE35847F394B71B9C4837284EFD4741 /* Debug */,
+				8ADB2EB4859A3CE8BEDF1C9613837654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
