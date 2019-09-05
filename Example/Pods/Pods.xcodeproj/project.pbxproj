@@ -401,9 +401,6 @@
 		914E31582320CC4A00CF6862 /* Extenstions */ = {
 			isa = PBXGroup;
 			children = (
-				914E31592320CC6A00CF6862 /* Color+Extension.swift */,
-				914E315B2320CD0D00CF6862 /* Font+Extension.swift */,
-				914E31642320D5BD00CF6862 /* UIDevice+Extension.swift */,
 			);
 			path = Extenstions;
 			sourceTree = "<group>";
@@ -411,8 +408,6 @@
 		914E315D2320CD7600CF6862 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				914E31562320CC2900CF6862 /* AppColor.swift */,
-				914E315E2320CD8B00CF6862 /* AppFont.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -420,8 +415,6 @@
 		914E31602320CE0E00CF6862 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				914E31682320D66C00CF6862 /* FieldType.swift */,
-				914E31612320CE2B00CF6862 /* Options.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -431,6 +424,13 @@
 			children = (
 				602827A539B5605EE7957AE60EBC97A7 /* Formfeild.swift */,
 				914E31662320D5E600CF6862 /* SelectionCell.swift */,
+				914E31592320CC6A00CF6862 /* Color+Extension.swift */,
+				914E315B2320CD0D00CF6862 /* Font+Extension.swift */,
+				914E31642320D5BD00CF6862 /* UIDevice+Extension.swift */,
+				914E31682320D66C00CF6862 /* FieldType.swift */,
+				914E31612320CE2B00CF6862 /* Options.swift */,
+				914E31562320CC2900CF6862 /* AppColor.swift */,
+				914E315E2320CD8B00CF6862 /* AppFont.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
