@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Formfeild_Example' do
+  pod 'Formfeild', :path => '../'
+
+  target 'Formfeild_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
